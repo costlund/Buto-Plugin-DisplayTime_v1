@@ -15,11 +15,13 @@ data:
 
 ## Show
 
-Show span with time. Span element will have id and class as plugin_display_time_v1.
+Show span with time. Span element will have id and class as plugin_display_time_v1. One could also add more classes via data/class param.
 
 ```
 type: widget
 data:
   plugin: display/time_v1
   method: show
+  data:
+    class: label label-info label-as-badge
 ```

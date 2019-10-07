@@ -1,5 +1,8 @@
-version: '1.0'
+version: '1.1'
 history:
+  '1.1':
+    date: '2019-10-03'
+    description: 'Add classes.'
   '1.0':
     date: '2019-10-02'
     description: 'Manifest created.'
